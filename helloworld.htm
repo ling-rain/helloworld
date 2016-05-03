@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+<body>
+<h3>Welcome!</h3>
+<br>
+当前时间：   
+<div id="time">
+<script>     
+document.getElementById('time').innerHTML=new Date().toLocaleString();     
+setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);  
+</script>    
+</div>
+<hr>
+当前ID：
+<div id="indentify">    
+<script>     
+var number = Math.random();
+number = Math.ceil(number * 100); 
+document.write(number);
+</script>    
+</div>
+</body>
+</html>
