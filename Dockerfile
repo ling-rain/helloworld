@@ -1,5 +1,5 @@
 FROM httpd:2.4
-MAINTAINTER yilisa<915961521@qq.com>
+MAINTAINER yilisa<915961521@qq.com>
 
 COPY gcc-5.4.0.tar.gz gcc-5.4.0.tar.gz
 RUN tar -zxvf gcc-5.4.0.tar.gz 
