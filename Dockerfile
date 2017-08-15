@@ -9,4 +9,4 @@ MAINTAINER yilisa<915961521@qq.com>
 #	make -j4 && make install
 
 COPY helloworld.htm /usr/local/apache2/htdocs/
-RUN mv /usr/local/apache2/htdocs/helloworld.htm /usr/local/apache2/htdocs/index.htm
+RUN mv /usr/local/apache2/htdocs/helloworld.htm /usr/local/apache2/htdocs/index.html
